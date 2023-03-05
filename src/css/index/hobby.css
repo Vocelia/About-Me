@@ -1,0 +1,143 @@
+#hobby-div {
+  font-size: 1.8em;
+  font-weight: 200;
+  font-family: cookie;
+  background: rgb(51,85,254);
+  background: linear-gradient(
+    13deg, 
+    rgba(51,85,254,1) 0%,
+    rgba(249,61,99,1) 100%
+  );
+}
+
+#game-card {
+  font-size: 1.5em;
+  font-family: "metal-lord";
+}
+
+.flex-items {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  align-self: end;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#undertale-title {
+  font-size: 0.8em;
+}
+
+#undertale-flexbox {
+  display: flex;
+}
+
+#undertale-sprite {
+  width: 420%;
+  height: 220%;
+  margin-top: 0%;
+  margin-left: -110%;
+}
+
+#undertale-sprites {
+  width: 13%;
+  height: 20vw;
+  margin-top: 4.6vw;
+  margin-left: 13.8vw;
+  overflow: hidden;
+}
+
+#undertale-bubble-text {
+  width: 30vw;
+  height: 6vw;
+  color: white;
+  opacity: 93%;
+  padding: 1vw;
+  bottom: 8.8vw;
+  font-size: 1.5vw;
+  position: relative;
+  margin-left: 4.8vw;
+  border-radius: 0.2em;
+  background-color: black;
+  font-family: "undertale";
+  border: 0.5vw solid white;
+  border-color: white;
+}
+
+.thumbnails {
+  width: 52%;
+  height: 12%;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: inherit;
+}
+
+#yesbtn {
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  border-width: 0;
+  margin: 0.5em 1.5em;
+  border-radius: 0.5em;
+  justify-content: center;
+  background-color: green;
+  font-family: "undertale";
+}
+
+#yesbtn:hover {
+  background-color: lightgreen;
+}
+
+#nobtn {
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  border-width: 0;
+  margin: 0.5em 1.5em;
+  border-radius: 0.5em;
+  justify-content: center;
+  background-color: red;
+  font-family: "undertale";
+}
+
+#nobtn:hover {
+  background-color: #ee9090;
+}
+
+#anonymous-chara {
+  color: darkgrey;
+  font-size: 10vw;
+  font-family: "undertale";
+}
+
+#undertale-popup {
+  top: 1em;
+  right: 1em;
+  width: 40%;
+  z-index: 10;
+  color: white;
+  opacity: 95%;
+  padding: 1.2em;
+  position: fixed;
+  font-size: 0.8em;
+  display: inline-grid;
+  border-radius: 0.6em;
+  font-family: "undertale";
+  background: linear-gradient(
+    175deg,
+    rgb(41, 193, 240) 5%,
+    rgb(47, 160, 226) 10%,
+    rgba(28, 127, 238, 1) 18%,
+    rgb(20, 100, 242) 30%,
+    rgb(12, 67, 248) 45%,
+    rgb(52, 7, 251) 60%,
+    rgb(113, 7, 251) 85%,
+    rgb(151, 6, 251) 92%,
+    rgb(178, 11, 236) 98%
+  );
+}

@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+  #hobby-div {
+    font-size: 1em;
+    font-weight: 200;
+  }
+
+  #game-card {
+    font-size: 1em;
+  }
+
+  #undertale-title {
+    font-size: 0.6em;
+  }
+
+  #anonymous-chara {
+    font-size: 8.5vw;
+  }
+
+  #undertale-popup {
+    width: 60%;
+    font-size: 0.5em;
+  }
+
+  #undertale-bubble-text {
+    font-size: 1.2vw;
+  }
+}

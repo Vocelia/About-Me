@@ -1,0 +1,83 @@
+@keyframes updown {
+  0% {
+    transform: translateY(-40%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(-40%);
+  }
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.rainbow_animation {
+  width: fit-content;
+  background: linear-gradient(
+    160deg,
+    #ff0000,
+    #ff9100,
+    #fffb00,
+    #5eff00,
+    #00ffff,
+    #0051ff,
+    #8235ff,
+    #ee35ff,
+    #ee35ff,
+    #8235ff,
+    #0051ff,
+    #00ffff,
+    #5eff00,
+    #fffb00,
+    #ff9100,
+    #ff0000
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+.rainbow-div {
+  border-radius: 1em;
+  background: linear-gradient(
+    220deg,
+    #ff0000,
+    #ff9100,
+    #fffb00,
+    #5eff00,
+    #00ffff,
+    #8235ff,
+    #ee35ff,
+    #ee35ff,
+    #8235ff,
+    #00ffff,
+    #5eff00,
+    #fffb00,
+    #ff9100,
+    #ff9100,
+    #fffb00,
+    #5eff00,
+    #00ffff,
+    #8235ff,
+    #ee35ff,
+    #ee35ff,
+    #8235ff,
+    #00ffff,
+    #5eff00,
+    #fffb00,
+    #ff9100,
+    #ff0000
+  );
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}

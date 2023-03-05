@@ -1,0 +1,106 @@
+#phil-div {
+  font-size: 1.8em;
+  font-weight: 200;
+  font-family: cookie;
+	background: linear-gradient(
+    130deg, 
+    rgba(16,236,240,1) 0%, 
+    rgba(255,173,0,1) 100%
+  );
+}
+
+#js-exception {
+  width: 1.3em;
+  height: 1.3em;
+  display: inline;
+  padding-left: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.languages {
+  width: 100%;
+  margin-top: 0.3em;
+}
+
+.languages div p {
+  margin-bottom: 0;
+  font-size: 0.8em;
+  font-family: press;
+}
+
+.prof-layout {
+  font-size: 0.8em;
+  margin-bottom: 10em;
+  font-family: press;
+}
+
+.prof-layout img {
+  position: absolute;
+}
+
+.prof-levels {
+  margin-top: 0.8em;
+  position: absolute;
+  display: inline-flex;
+}
+
+#ar p {
+  margin-right: 2.1em;
+}
+
+#fr p {
+  margin-right: 2.1em;
+}
+
+#en p {
+  margin-right: 2.1em;
+}
+
+#cn p {
+  margin-right: 2.1em;
+}
+
+#tg p {
+  margin-right: 2.1em;
+}
+
+#jp p {
+  margin-right: 3.1em;
+}
+
+.ar-img {
+  margin-left: 0.4em;
+}
+
+.fr-img {
+  margin-left: 1.4em;
+}
+
+.en-img {
+  margin-left: 10em;
+}
+
+.cn-img {
+  margin-left: 0.25em;
+}
+
+.tg-img {
+  margin-left: -1em;
+}
+
+.jp-img {
+  margin-left: 4.5em;
+}
+
+#road {
+  width: 18em;
+  height: 8em;
+  border-radius: 0.3em;
+}
+
+#overlay {
+  width: 5em;
+  height: 5em;
+  z-index: 2;
+  margin-top: 2em;
+}

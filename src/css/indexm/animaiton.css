@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+  @keyframes updown {
+    0% {
+      transform: translateY(-80%);
+    }
+    50% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(-80%);
+    }
+  }
+}

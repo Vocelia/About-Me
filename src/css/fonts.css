@@ -1,0 +1,19 @@
+@font-face {
+  font-family: cookie;
+  src: url(../../fonts/Cookie-Regular.ttf);
+}
+
+@font-face {
+  font-family: press;
+  src: url(../../fonts/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family: metal-lord;
+  src: url(../../fonts/metal-lord.ttf);
+}
+
+@font-face {
+  font-family: undertale;
+  src: url(../../fonts/MonsterFriendBack.otf);
+}

@@ -1,0 +1,19 @@
+#charlotte-back {
+  background-position: left;
+}
+
+#vocelia-div {
+  opacity: 88%;
+  background: linear-gradient(
+    175deg,
+    rgb(41, 193, 240) 5%,
+    rgb(47, 160, 226) 10%,
+    rgba(28, 127, 238, 1) 18%,
+    rgb(20, 100, 242) 30%,
+    rgb(12, 67, 248) 45%,
+    rgb(52, 7, 251) 60%,
+    rgb(113, 7, 251) 85%,
+    rgb(151, 6, 251) 92%,
+    rgb(178, 11, 236) 98%
+  );
+}

@@ -1,0 +1,125 @@
+#center-div {
+	margin-top: 40vh;
+}
+
+.flex-items {
+	width: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+#textbox {
+  width: 100%;
+  height: 6vw;
+  color: white;
+  padding: 1vw;
+  text-align: left;
+  font-size: 1.5vw;
+  position: relative;
+  border-radius: 0.2em;
+  background-color: black;
+  font-family: "undertale";
+  border: 0.5vw solid white;
+  border-color: white;
+}
+
+#textbox span {
+	right: 0.2em;
+	bottom: 0.2em;
+	position: absolute;
+	animation: updown 3s ease-in-out infinite;
+}
+
+#chara-canvas {
+	width: 12em;
+	height: 8em;
+	display: inline-grid;
+} 
+
+#history-button {
+	color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  border-width: 0;
+  margin: 0.5em 1.5em;
+  border-radius: 0.5em;
+  justify-content: center;
+  background-color: grey;
+  font-family: "press";
+	display: inline-grid;
+}
+
+#history-button:hover {
+  background-color: lightgrey;
+}
+
+#playerspeed {
+	color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  border-width: 0;
+  margin: 0.5em 1.5em;
+  border-radius: 0.5em;
+  justify-content: center;
+  background-color: green;
+  font-family: "press";
+	display: inline-grid;
+}
+
+#playerspeed:hover {
+  background-color: lightgreen;
+}
+
+.opt {
+	color: white;
+  padding: 0.5em;
+  font-size: 0.8em;
+  cursor: pointer;
+  border-width: 0;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  justify-content: center;
+  background-color: green;
+  font-family: "undertale";
+	display: inline-grid;
+}
+
+.opt:hover {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 600px) {
+	.flex-items {
+		width: 70%;
+	}
+	
+  #textbox {
+	  height: 12vw;
+	  font-size: 1.8vw;
+	  border: 0.8vw solid white;
+	  border-color: white;
+	}
+
+	#chara-canvas {
+		width: 8em;
+		height: 5em;
+	} 
+
+	#playerspeed {
+	  padding: 0.5em;
+	  font-size: 0.6em;
+	  cursor: pointer;
+	  border-width: 0;
+	  margin: 0.5em;
+	}
+
+	#history-button {
+	  padding: 0.5em;
+	  font-size: 0.6em;
+	  cursor: pointer;
+	  border-width: 0;
+	  margin: 0.5em;
+	}
+}
