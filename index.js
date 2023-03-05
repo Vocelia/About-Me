@@ -12,7 +12,7 @@ app.use("/src", express.static(path.join(__dirname, "src")));
 
 app.get("/", (req, res) => {
   let visitsFile = fs.readFileSync("./data/visits.json", "utf-8");
-	let visits = JSON.parse(visitsFile);
+  let visits = JSON.parse(visitsFile);
   visits["visits"]++;
   visitsFile = JSON.stringify(visits, null, 4);
   fs.writeFileSync("./data/visits.json", visitsFile, "utf-8");
@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 
 app.get("/visits", (req, res) => {
   let visitsFile = fs.readFileSync("./data/visits.json", "utf-8");
-	let visits = JSON.parse(visitsFile);
+  let visits = JSON.parse(visitsFile);
   res.send(visits);
 });
 
@@ -35,10 +35,6 @@ app.get("/email", (req, res) => {
 
 app.get("/matrix", (req, res) => {
   res.send(`<center><h1><b>vocelia@matrix.org</b></h1></center>`);
-});
-
-app.get("/discord", (req, res) => {
-  res.send(`<center><h1><b>胡蝶#3100</b></h1></center>`);
 });
 
 http.listen(port, () => {
