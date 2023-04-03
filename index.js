@@ -34,7 +34,7 @@ app.get("/email", (req, res) => {
 });
 
 app.get("/matrix", (req, res) => {
-  res.send(`<center><h1><b>vocelia@matrix.org</b></h1></center>`);
+  res.send(`<center><h1><b>vocelia@silk.ms</b></h1></center>`);
 });
 
 http.listen(port, () => {
