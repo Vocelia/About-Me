@@ -23,6 +23,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   </head>
   <body>
+    <dialog id="button"><form>
+      <h6>BUTTON CODE SNIPPET</h6>
+      <p>&lt;a href="https://about.vocelia.repl.co/"&gt; <br/>
+        &lt;img src="https://about.vocelia.repl.co/button.gif"&gt; <br/>
+      &lt;/a&gt;</p>
+      <button value="cancel" formmethod="dialog">OK</button></form>
+    </dialog>
+    <dialog id="email"><form>
+      <h6>EMAIL</h6>
+      <p><strong>vocelia@outlook.jp</strong></p>
+      <button value="cancel" formmethod="dialog">OK</button></form>
+    </dialog>
+    <dialog id="matrix"><form>
+      <h6>MATRIX</h6>
+      <p><strong>@vocelia:silk.ms</strong></p>
+      <button value="cancel" formmethod="dialog">OK</button></form>
+    </dialog>
     <div style="width: fit-content; text-align: center; width: 100%; height: 100%;">
     <body style="background-image: url(../src/media/background/main-back.jpeg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
       <p class="title hero glitch layers"><span><b>HYPE<br>GLITCHER</b></span></p>
@@ -192,13 +209,6 @@
         </div>
         <img src="/button.gif">
         <p class="rainbow_animation" id="icon-titles">Do you wish to link my site with yours? <a class="rainbow_animation" href="javascript:button.showModal();">Click Here</a></p>
-        <dialog id="button"><form>
-          <h6>Button Code Snippet</h6>
-          <p>&lt;a href="https://about.vocelia.repl.co/"&gt; <br/>
-            &lt;img src="https://about.vocelia.repl.co/button.gif"&gt; <br/>
-          &lt;/a&gt;</p>
-          <button value="cancel" formmethod="dialog">OK</button></form>
-        </dialog>
         <div id="game-card" class="card-subtitle typewritter">
           My Friends
         </div>
@@ -241,9 +251,11 @@
       </ul>
       <ul class="menu">
         <li class="menu__item"><a class="menu__link" href="https://about.vocelia.repl.co">Home</a></li>
-	<li class="menu__item"><a class="menu__link" href="https://anilist.co/user/Vocelia">Anilist</a></li>
-        <li class="menu__item"><a class="menu__link" href="email">Email</a></li>
-        <li class="menu__item"><a class="menu__link" href="matrix">Matrix</a></li>
+	      <li class="menu__item"><a class="menu__link" href="https://anilist.co/user/Vocelia">Anilist</a></li>
+        <li class="menu__item"><a class="menu__link" href="javascript: email.showModal();">Email</a></li>
+        
+        <li class="menu__item"><a class="menu__link" href="javascript: matrix.showModal();">Matrix</a></li>
+        
       </ul>
       <p>&copy;Vocelia 2023</p>
     </footer>
