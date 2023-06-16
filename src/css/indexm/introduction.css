@@ -100,4 +100,8 @@
     width: 5em;
     height: 5em;
   }
+
+  dialog {
+    max-width: 20em;
+  }
 }
