@@ -186,3 +186,41 @@
 .menu__link:hover {
   opacity: 1;
 }
+
+dialog {
+  color: #fff;
+  border: none;
+  opacity: 88%;
+  padding: 0.8em;
+  max-width: 28em;
+  border-radius: 0.4em;
+  background: linear-gradient(
+    175deg,
+    rgb(41, 193, 240) 5%,
+    rgb(47, 160, 226) 10%,
+    rgba(28, 127, 238, 1) 18%,
+    rgb(20, 100, 242) 30%,
+    rgb(12, 67, 248) 45%,
+    rgb(52, 7, 251) 60%,
+    rgb(113, 7, 251) 85%,
+    rgb(151, 6, 251) 92%,
+    rgb(178, 11, 236) 98%
+  );
+}
+
+dialog button {
+  color: #fff;
+  margin: 0;
+  padding: 0.4em;
+  font-size: 0.6em;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 0.3em;
+  font-family: "press";
+  justify-content: center;
+  background-color: green;
+}
+
+dialog button:hover {
+  background-color: lightgreen;
+}
