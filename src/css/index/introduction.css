@@ -191,8 +191,8 @@ dialog {
   color: #fff;
   border: none;
   opacity: 88%;
-  padding: 0.8em;
-  max-width: 28em;
+  padding: 1em;
+  max-width: 32em;
   border-radius: 0.4em;
   background: linear-gradient(
     175deg,
@@ -212,7 +212,7 @@ dialog button {
   color: #fff;
   margin: 0;
   padding: 0.4em;
-  font-size: 0.6em;
+  font-size: 1em;
   cursor: pointer;
   border-width: 0;
   border-radius: 0.3em;
@@ -223,4 +223,17 @@ dialog button {
 
 dialog button:hover {
   background-color: lightgreen;
+}
+
+dialog form h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "undertale";
+}
+
+dialog form p {
+  padding-top: 0.2em;
+  font-size: 1em;
+  font-family:'Courier New', Courier, monospace;
 }
