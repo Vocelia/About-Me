@@ -29,14 +29,6 @@ app.get("/chara", (req, res) => {
   res.render("chara");
 });
 
-app.get("/email", (req, res) => {
-  res.send(`<center><h1><b>vocelia@outlook.jp</b></h1></center>`);
-});
-
-app.get("/matrix", (req, res) => {
-  res.send(`<center><h1><b>vocelia@silk.ms</b></h1></center>`);
-});
-
 http.listen(port, () => {
   console.log("Listening on: ", port);
 });
